@@ -146,12 +146,14 @@ public interface PositionalList<E> extends Iterable<E> {
   Iterable<Position<E>> positions();
 
   /**
-   * Exercise 1 - Returns the position of the element at the given index.
+   * *Exercise* 1 - Returns the position of the element at the given index.
    * @param p the position of the element
    * @return the index of the element
    */
   default int indexOf(Position<E> p) {
-    if (p == null) return -1;
+    if (p == null) {
+      return -1;
+    }
     Position<E> walk = first();
     int index = 0;
     while (walk != p) {

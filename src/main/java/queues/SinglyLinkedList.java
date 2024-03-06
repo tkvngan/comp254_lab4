@@ -259,7 +259,7 @@ public class SinglyLinkedList<E> implements Cloneable {
   }
 
   /**
-   * Exercise 3 - Concatenates the contents of the source list into the target
+   * *Exercise* 3 - Concatenates the contents of the source list into the target
    * list. The source list is empty after the operation.
    *
    * @param target the list into which the elements of the source are to be

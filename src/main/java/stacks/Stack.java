@@ -65,7 +65,7 @@ public interface Stack<E> {
 
 
   /**
-   * Exercise 2 - Transfers the elements from stack S to stack T, so that the
+   * *Exercise* 1 - Transfers the elements from stack S to stack T, so that the
    * elements that were
    *
    * @param S the stack to transfer from

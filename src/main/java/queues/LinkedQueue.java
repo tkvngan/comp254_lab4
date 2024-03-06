@@ -82,7 +82,7 @@ public class LinkedQueue<E> implements Queue<E> {
   }
 
   /**
-   * Exercise 3 - Concatenates the contents of another queue onto this queue.
+   * *Exercise* 3 - Concatenates the contents of another queue onto this queue.
    * The contents of the other queue are appended to the end of this queue.
    * The size of the other queue is reduced to zero.
    * @param from the queue whose contents should be concatenated onto this queue
